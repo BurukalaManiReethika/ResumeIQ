@@ -39,6 +39,28 @@ AI-Powered Resume Analyzer built with ASP.NET Core, SQL Server, and JavaScript.
 * PDF Parsing
 * JWT Authentication
 * Admin Dashboard
+* ## Architecture
+
+Frontend → API → Services → Database
+
+## Features
+
+- ATS Score Analysis
+- Resume Upload
+- Job Match Engine
+- Skill Gap Detection
+- JWT Authentication
+- Admin Dashboard
+- Docker Support
+- CI/CD Pipeline
+- AI Suggestions
+
+## Future Scope
+
+- Multi Language Resume Parsing
+- LinkedIn Profile Analysis
+- Interview Question Generator
+- AI Career Roadmap
 
 ## 📷 Screenshots
 
