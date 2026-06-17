@@ -27,3 +27,24 @@ public class ResumeController : ControllerBase
         });
     }
 }
+using Microsoft.AspNetCore.Mvc;
+
+namespace ResumeIQ.Controllers;
+
+[ApiController]
+[Route("api/upload")]
+public class ResumeUploadController : ControllerBase
+{
+    [HttpPost]
+    public IActionResult Upload(IFormFile file)
+    {
+        if (file == null)
+            return BadRequest();
+
+        return Ok(new
+        {
+            FileName = file.FileName,
+            Size = file.Length
+        });
+    }
+}
