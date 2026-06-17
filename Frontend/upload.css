@@ -1,0 +1,25 @@
+body{
+    background:#121212;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    height:100vh;
+
+    color:white;
+
+    font-family:sans-serif;
+}
+
+.upload-box{
+    background:#1e1e1e;
+
+    padding:40px;
+
+    border-radius:20px;
+
+    text-align:center;
+}
